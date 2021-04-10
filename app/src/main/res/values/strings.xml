@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">Homework_1</string>
     <string name="message">Hello World !!! Test !</string>
-    <string name="text1">Тестовый текст.</string>
-    <string name="btn1_text">Кнопка</string>
+    <string name="text1">Нажмите кнопку "NEXT" чтобы перейти на следующий экран</string>
+    <string name="text2">Нажмите кнопку "BACK" чтобы вернуться на предыдущий экран</string>
+    <string name="btn1_text">Next</string>
+    <string name="btn2_text">Back</string>
+    <string name="hint_text">Введите текст:</string>
+    <string name="hint_name">Введите имя:</string>
+    <string name="hint_phone">Введите номер телефона:</string>
+    <string name="hint_numbers">Введите цифры:</string>
+    <string name="hint_password">Введите пароль:</string>
+    <string name="hint_email">Введите адрес эл.почты:</string>
+    <string name="hint_date">Введите дату:</string>
 </resources>

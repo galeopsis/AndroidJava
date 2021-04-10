@@ -6,18 +6,17 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class activity_second extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_second);
 
-        Button next = findViewById(R.id.btn_next);
+        Button next = findViewById(R.id.btn_back);
         next.setOnClickListener(view -> {
-            Intent myIntent = new Intent(view.getContext(), activity_second.class);
+            Intent myIntent = new Intent(view.getContext(), MainActivity.class);
             startActivityForResult(myIntent, 0);
         });
-
     }
 }
